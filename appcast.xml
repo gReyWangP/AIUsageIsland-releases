@@ -5,6 +5,22 @@
     <link>https://github.com/gReyWangP/AIUsageIsland-releases</link>
     <description>AI Usage Island updates</description>
     <item>
+      <title>AI Usage Island 1.19.18</title>
+      <pubDate>Thu, 08 Oct 2026 07:05:13 +0000</pubDate>
+      <description sparkle:format="markdown">改善状态栏悬浮卡片的余额显示。
+
+- DeepSeek 余额统一四舍五入保留两位小数，例如 ¥3.895678 显示为 ¥3.90。
+- 只调整显示格式，实际余额、历史数据和提醒判断继续使用原有精度。
+- 保留状态栏卡片与中央悬浮窗统一的主题和背景，以及移入预览、点击保持和快捷操作。
+
+可在“设置 → 通用与支持 → 软件更新”点击“检查更新”，按提示下载并安装。自动检查默认关闭。
+
+支持 macOS 14 及以上、Apple Silicon。首次安装时，将解压后的 AIUsageIsland.app 放入“应用程序”目录。当前包采用临时签名，尚未完成 Apple 公证；首次打开可能需要在系统“隐私与安全性”中允许打开。
+</description>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v1.19.18/AIUsageIsland-1.19.18-build67-arm64.zip" length="5473375" type="application/octet-stream" sparkle:version="67" sparkle:shortVersionString="1.19.18" sparkle:edSignature="rCGfd9aYqTp0KW/voN57sIIr9+IA/PwLZbvqIl6G8EtO0QBiiG7YgQfMmF+fMEEVa3T9mSEvpUKgglSCWr/nDw==" />
+    </item>
+    <item>
       <title>AI Usage Island 1.19.17</title>
       <pubDate>Thu, 08 Oct 2026 06:56:01 +0000</pubDate>
       <description sparkle:format="markdown">修复状态栏卡片与中央悬浮窗的主题不一致问题。
