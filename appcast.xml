@@ -5,6 +5,24 @@
     <link>https://github.com/gReyWangP/AIUsageIsland-releases</link>
     <description>AI Usage Island updates</description>
     <item>
+      <title>AI Usage Island 1.19.16</title>
+      <pubDate>Thu, 08 Oct 2026 06:46:08 +0000</pubDate>
+      <description sparkle:format="markdown">新增独立显示入口和状态栏用量卡片。
+
+- 可分别开启或关闭顶部中央移入、状态栏图标和状态栏移入预览，支持只使用状态栏。
+- 状态栏移入预览默认关闭；开启后停留展开卡片，移入卡片保持，离开后收起。
+- 点击图标保持展开，再次点击、点击外部或按 Escape 收起；右键保留快捷菜单。
+- 卡片展示当前账号的额度、余额和下次重置，支持刷新、用量分析与设置，适配浅色和深色外观。
+- 两个显示入口均关闭时，可重新打开应用进入设置。已有账号、显示偏好和自动更新选择继续保留。
+
+支持 macOS 14 及以上、Apple Silicon。已安装 1.19.15 的用户可在“设置 → 通用与支持 → 软件更新”点击“检查更新”，按提示下载并安装。自动检查默认关闭。
+
+首次安装：解压 ZIP，将 AIUsageIsland.app 放入“应用程序”目录后打开。当前包采用临时签名，尚未完成 Apple 公证；首次打开可能需要在系统“隐私与安全性”中允许打开。
+</description>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v1.19.16/AIUsageIsland-1.19.16-build65-arm64.zip" length="5492743" type="application/octet-stream" sparkle:version="65" sparkle:shortVersionString="1.19.16" sparkle:edSignature="D5EDi1qWPiDlgEY03sJYA4ZzVAviUzKgwtwsvCaeyVz+rU6KopKIGQLTiE1/2fXBbHYQYvSw9rCEWv8dxT1cBA==" />
+    </item>
+    <item>
       <title>AI Usage Island 1.19.15</title>
       <pubDate>Thu, 08 Oct 2026 03:35:54 +0000</pubDate>
       <description sparkle:format="markdown">## 新增功能
