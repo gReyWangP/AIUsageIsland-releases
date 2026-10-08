@@ -10,7 +10,7 @@ macOS 顶部浮窗与菜单栏中的 AI 账号用量工具，支持 DeepSeek、�
 
 当前版本：1.19.14（build 63）。支持 macOS 14 及以上、Apple Silicon。
 
-当前安装包为本地测试版，采用临时签名，尚未完成 Developer ID 签名和 Apple 公证。macOS 可能阻止首次打开。应用内自动更新尚未接入，当前需要手动下载安装。
+当前安装包采用临时签名，尚未完成 Developer ID 签名和 Apple 公证。macOS 可能阻止首次打开。应用内自动更新尚未接入，当前需要手动下载安装。
 
 ## 功能
 
