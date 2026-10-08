@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>AI Usage Island</title>
+    <link>https://github.com/gReyWangP/AIUsageIsland-releases</link>
+    <description>AI Usage Island updates</description>
+    <item>
+      <title>AI Usage Island 1.19.15</title>
+      <pubDate>Thu, 08 Oct 2026 03:35:54 +0000</pubDate>
+      <description sparkle:format="markdown">## 新增功能
+
+- 应用内更新：在“设置 → 通用与支持 → 软件更新”点击“检查更新”，查看新版说明，直接下载并安装。
+- 自动检查更新开关：默认关闭，可按需开启；开启或关闭的选择会保留。
+- 后台发现新版后提示确认，下载和安装由你决定。
+- 更新包采用独立签名验证，下载完成后核验完整性。
+
+## 安装与使用
+
+首次使用应用内更新，需要先下载并安装本版。1.19.14 及更早版本没有更新组件，之后可在应用内完成升级。
+
+适用于 Apple Silicon Mac，macOS 14 或更新版本。解压后将 AIUsageIsland.app 放入“应用程序”，替换旧版；已有账号及设置保留。
+</description>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v1.19.15/AIUsageIsland-1.19.15-build64-arm64.zip" length="5431690" type="application/octet-stream" sparkle:version="64" sparkle:shortVersionString="1.19.15" sparkle:edSignature="ZRO0dSSBD8oIQ3V18HRUyE+25jb9MDupLEpTBB8bK2j32eYak8RQbberO3ww8rteXL092bOOo/NK0WCkPmwXAw==" />
+    </item>
+  </channel>
+</rss>
