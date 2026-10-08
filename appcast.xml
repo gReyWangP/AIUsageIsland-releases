@@ -5,6 +5,23 @@
     <link>https://github.com/gReyWangP/AIUsageIsland-releases</link>
     <description>AI Usage Island updates</description>
     <item>
+      <title>AI Usage Island 1.19.19</title>
+      <pubDate>Thu, 08 Oct 2026 07:28:14 +0000</pubDate>
+      <description sparkle:format="markdown">修复菜单栏图标持续重绘造成的高 CPU 占用。
+
+- 修复多屏菜单栏复制图标时，临时外观变化引发的重复重绘循环。
+- 图标在绘制时适配当前菜单栏明暗，不再因系统外观复制反复替换图像。
+- 用量和样式未变化时复用现有图标，减少后台绘制开销。
+- 保留状态栏卡片、主题与背景设置、余额两位小数，以及账号用量刷新和提醒。
+
+可在“设置 → 通用与支持 → 软件更新”点击“检查更新”，按提示下载并安装。自动检查默认关闭。
+
+支持 macOS 14 及以上、Apple Silicon。首次安装时，将解压后的 AIUsageIsland.app 放入“应用程序”目录。当前包采用临时签名，尚未完成 Apple 公证；首次打开可能需要在系统“隐私与安全性”中允许打开。
+</description>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v1.19.19/AIUsageIsland-1.19.19-build68-arm64.zip" length="5474682" type="application/octet-stream" sparkle:version="68" sparkle:shortVersionString="1.19.19" sparkle:edSignature="KXtRghPkMgpyRDv4bKvHkmMTMSH1JEcu231MCfN46IrAvWvdHuarvRxJ/K1yrS6NhiaM3RcUqAQuvB/wJlaVAg==" />
+    </item>
+    <item>
       <title>AI Usage Island 1.19.18</title>
       <pubDate>Thu, 08 Oct 2026 07:05:13 +0000</pubDate>
       <description sparkle:format="markdown">改善状态栏悬浮卡片的余额显示。
