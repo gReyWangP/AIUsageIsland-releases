@@ -5,6 +5,23 @@
     <link>https://github.com/gReyWangP/AIUsageIsland-releases</link>
     <description>AI Usage Island updates</description>
     <item>
+      <title>AI Usage Island 1.19.17</title>
+      <pubDate>Thu, 08 Oct 2026 06:56:01 +0000</pubDate>
+      <description sparkle:format="markdown">修复状态栏卡片与中央悬浮窗的主题不一致问题。
+
+- 状态栏卡片与中央悬浮窗共用浅色、深色和跟随系统设置。
+- “纯色／毛玻璃”背景选项统一生效；选择纯色时不再叠加系统毛玻璃。
+- 主题和背景修改即时生效，移入预览、点击保持、刷新、分析与设置入口继续保留。
+- 状态栏图标位置变化时，展开的卡片保持对齐图标，并限制在当前屏幕范围内。
+
+可在“设置 → 通用与支持 → 软件更新”点击“检查更新”，按提示下载并安装。自动检查默认关闭，已有选择继续保留。
+
+支持 macOS 14 及以上、Apple Silicon。首次安装时，将解压后的 AIUsageIsland.app 放入“应用程序”目录。当前包采用临时签名，尚未完成 Apple 公证；首次打开可能需要在系统“隐私与安全性”中允许打开。
+</description>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v1.19.17/AIUsageIsland-1.19.17-build66-arm64.zip" length="5472958" type="application/octet-stream" sparkle:version="66" sparkle:shortVersionString="1.19.17" sparkle:edSignature="304jY32QxFihcAzXBfG8KQlPaPS5IgPwsLPM1/cVSxmwCMF1eqVHZErU9h1YQQ8hAhmoPvgze1g4wVNXFBTVAw==" />
+    </item>
+    <item>
       <title>AI Usage Island 1.19.16</title>
       <pubDate>Thu, 08 Oct 2026 06:46:08 +0000</pubDate>
       <description sparkle:format="markdown">新增独立显示入口和状态栏用量卡片。
