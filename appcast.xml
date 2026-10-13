@@ -5,6 +5,23 @@
     <link>https://github.com/gReyWangP/AIUsageIsland-releases</link>
     <description>AI Usage Island updates</description>
     <item>
+      <title>AI Usage Island 1.19.23</title>
+      <pubDate>Tue, 13 Oct 2026 10:11:08 +0000</pubDate>
+      <description sparkle:format="markdown">Bark 推送范围调整为重置动态。
+
+- 自动 Bark 推送仅包含公开重置动态，遵循公告开关、提醒时段及暂停设置。
+- 不再远端发送本机账号名称、余额、额度偏低或个人额度恢复提醒。
+- 保留多个 Bark 地址、连接通知、今日动态预览与手动摘要推送，以及发送进度和各地址结果。
+- 本机账号额度提醒继续使用 Mac 系统通知，与 Bark 推送独立。
+
+在“提醒 → Bark 手机推送”配置地址，在“Codex 重置公告”管理自动动态提醒。已有配置继续保留；Mac 应用需运行且联网。
+
+已有版本可通过“设置 → 通用与支持 → 软件更新 → 检查更新”下载安装。支持 macOS 14 及以上、Apple Silicon，自动检查默认关闭。当前包仍为临时签名，尚未完成 Apple 公证。
+</description>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v1.19.23/AIUsageIsland-1.19.23-build72-arm64.zip" length="5521471" type="application/octet-stream" sparkle:version="72" sparkle:shortVersionString="1.19.23" sparkle:edSignature="wZMqijD12X+uuKfaEjf1o3p9T65jQxI2n03KFqVSXvGKmeYTcSXUyrOvOm3Ih5rj1r9+Lfyihn299+4eEyunBw==" />
+    </item>
+    <item>
       <title>AI Usage Island 1.19.22</title>
       <pubDate>Tue, 13 Oct 2026 08:54:36 +0000</pubDate>
       <description sparkle:format="markdown">新增 Bark 手机推送及重置动态摘要。
