@@ -5,6 +5,26 @@
     <link>https://github.com/gReyWangP/AIUsageIsland-releases</link>
     <description>AI Usage Island updates</description>
     <item>
+      <title>AI Usage Island 1.19.22</title>
+      <pubDate>Tue, 13 Oct 2026 08:54:36 +0000</pubDate>
+      <description sparkle:format="markdown">新增 Bark 手机推送及重置动态摘要。
+
+- 支持自行填写多个 Bark 推送地址，默认关闭，可发送连接通知检查配置。
+- 支持加载、预览并手动推送今日可用的重置动态；新动态可自动推送，并遵循公告开关、提醒时段与暂停设置。
+- 重置摘要展示事件、公告时间、重置时间、推送原因与原帖；来源未明确提供的时间和原因会注明未知。
+- 地址明文显示，方便核对；手动发送显示进度、各地址结果、成功与失败数量及完成时间。
+- 余额、额度偏低和恢复提醒支持同步到手机。地址仅在本机保存，不随配置导出。
+
+在“提醒 → Bark 手机推送”配置。Mac 应用需运行且联网；当前重置来源只提供最新动态及预告，不保证包含当天全部历史。服务器接受推送后，请在手机确认实际通知。
+
+支持 macOS 14 及以上、Apple Silicon。已有版本可通过“设置 → 通用与支持 → 软件更新 → 检查更新”下载安装。自动检查默认关闭。
+
+首次安装：解压 ZIP，将 AIUsageIsland.app 放入“应用程序”目录。当前安装包为临时签名，尚未完成 Apple 公证；首次打开可能需要在系统“隐私与安全性”中允许打开。
+</description>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v1.19.22/AIUsageIsland-1.19.22-build71-arm64.zip" length="5524139" type="application/octet-stream" sparkle:version="71" sparkle:shortVersionString="1.19.22" sparkle:edSignature="d+vIfzEnPgfhStQyovig2S94mwi+KmUvZDFnx5zgyiKiI5rU9kgp9+WFneh0ovfsTxV4DDSykA+9PMfmR/4GAQ==" />
+    </item>
+    <item>
       <title>AI Usage Island 1.19.19</title>
       <pubDate>Thu, 08 Oct 2026 07:28:14 +0000</pubDate>
       <description sparkle:format="markdown">修复菜单栏图标持续重绘造成的高 CPU 占用。
