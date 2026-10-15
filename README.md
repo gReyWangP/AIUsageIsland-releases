@@ -8,7 +8,7 @@ macOS 顶部浮窗与菜单栏中的 AI 账号用量工具，支持 DeepSeek、�
 
 在本仓库 Releases 页面下载最新安装 ZIP，解压得到 `AIUsageIsland.app`。先退出旧实例，再将应用放到“应用程序”目录后打开。
 
-当前版本：1.19.24（build 73）。支持 macOS 14 及以上、Apple Silicon。
+当前版本：1.19.25（build 74）。支持 macOS 14 及以上、Apple Silicon。
 
 当前安装包采用临时签名，尚未完成 Developer ID 签名和 Apple 公证。macOS 可能阻止首次打开。首次接入应用内更新的版本需要手动安装一次，之后可在设置 → 通用与支持 → 软件更新中检查、下载并安装。自动检查默认关闭，可自行开启。
 

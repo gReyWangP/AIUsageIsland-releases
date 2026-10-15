@@ -5,6 +5,19 @@
     <link>https://github.com/gReyWangP/AIUsageIsland-releases</link>
     <description>AI Usage Island updates</description>
     <item>
+      <title>AI Usage Island 1.19.25</title>
+      <pubDate>Thu, 15 Oct 2026 11:35:43 +0000</pubDate>
+      <description sparkle:format="markdown">优化悬浮胶囊的贴边间距。
+
+- 展开胶囊与屏幕边缘的间距由 6 pt 减少至 3 pt，左侧、右侧和顶部统一调整。
+- 收起后的边缘小条仍直接贴边，保留悬停展开、拖动吸附和常驻展开功能。
+
+可通过“设置 → 通用与支持 → 软件更新”检查并安装。支持 macOS 14 及以上、Apple Silicon，保留现有账号和设置。应用采用临时签名，尚未完成 Apple 公证。
+</description>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v1.19.25/AIUsageIsland-1.19.25-build74-arm64.zip" length="5598466" type="application/octet-stream" sparkle:version="74" sparkle:shortVersionString="1.19.25" sparkle:edSignature="fcYX9W4GCrfrN9qLrsDyZPGWVwbm987lCi5okOGelgn/Z7zdZ6p+i+Cj2FdLDa9lpsG9MW3K4hgp3JIvtBXgCw==" />
+    </item>
+    <item>
       <title>AI Usage Island 1.19.24</title>
       <pubDate>Thu, 15 Oct 2026 11:21:18 +0000</pubDate>
       <description sparkle:format="markdown">新增可拖动的多平台悬浮状态栏。
