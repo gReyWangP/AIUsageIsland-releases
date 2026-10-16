@@ -5,6 +5,26 @@
     <link>https://github.com/gReyWangP/AIUsageIsland-releases</link>
     <description>AI Usage Island updates</description>
     <item>
+      <title>AI Usage Island 1.19.26</title>
+      <pubDate>Fri, 16 Oct 2026 02:53:35 +0000</pubDate>
+      <description sparkle:format="markdown">## 本版更新
+
+- 悬浮状态栏统一使用圆形平台图标，保留各平台原始 LOGO 颜色及外圈状态色。
+- DeepSeek 悬停卡片新增今日消耗金额、今日 Token、输入缓存命中率和输入／输出明细，Token 统一使用“万／亿”。
+- 用量分析新增“全部平台与账号”视图，每天一根堆叠柱，多个平台及同平台多个账号分别展示，可悬停查看各账号用量。
+- 单账号柱状图采用平台主题色；同平台多账号使用不同饱和度区分，图例与明细同步。
+- 缺失数据保留为空，缓存和未完整统计的数据明确标识；仍可切换单个账号查看详情。
+
+## 安装与更新
+
+支持 Apple Silicon Mac，macOS 14 及以上。可在应用“设置 → 通用与支持 → 软件更新”中检查更新，或下载 ZIP 后退出旧实例、解压并替换应用。已有账号与设置保留。
+
+安装包沿用临时签名，尚未完成 Developer ID 签名和 Apple 公证。
+</description>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v1.19.26/AIUsageIsland-1.19.26-build75-arm64.zip" length="5739911" type="application/octet-stream" sparkle:version="75" sparkle:shortVersionString="1.19.26" sparkle:edSignature="mNqGHiVSWZsRXHTtETWTfQ7k3+FUoZO5eM1Wn0nmHN0EksbtyHmDITvdoSUIamONXznWKObLkT3ZrKd1DFAHCw==" />
+    </item>
+    <item>
       <title>AI Usage Island 1.19.25</title>
       <pubDate>Thu, 15 Oct 2026 11:35:43 +0000</pubDate>
       <description sparkle:format="markdown">优化悬浮胶囊的贴边间距。
