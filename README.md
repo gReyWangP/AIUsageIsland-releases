@@ -4,6 +4,9 @@ macOS 顶部浮窗与菜单栏中的 AI 账号用量工具，支持 DeepSeek、�
 
 此仓库只用于分发安装包和更新说明。应用源码在公开仓库：[gReyWangP/AIUsageIsland](https://github.com/gReyWangP/AIUsageIsland)。
 
+![侧边停靠与详情卡片](https://raw.githubusercontent.com/gReyWangP/AIUsageIsland/main/docs/screenshots/side-dock-card.jpg)
+*界面预览 · 侧边停靠、双额度环与引出尖角详情卡片（演示数据）*
+
 ## 下载与安装
 
 在本仓库 Releases 页面下载最新安装 ZIP，解压得到 `AIUsageIsland.app`。先退出旧实例，再将应用放到“应用程序”目录后打开。
