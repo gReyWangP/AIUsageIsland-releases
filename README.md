@@ -2,7 +2,7 @@
 
 macOS 顶部浮窗与菜单栏中的 AI 账号用量工具，支持 DeepSeek、智谱 CodingPlan 和 ChatGPT/Codex 额度。
 
-此仓库只用于分发安装包和更新说明。应用源码保存在独立的私有仓库。
+此仓库只用于分发安装包和更新说明。应用源码在公开仓库：[gReyWangP/AIUsageIsland](https://github.com/gReyWangP/AIUsageIsland)。
 
 ## 下载与安装
 
