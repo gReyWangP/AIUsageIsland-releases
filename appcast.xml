@@ -5,6 +5,25 @@
     <link>https://github.com/gReyWangP/AIUsageIsland-releases</link>
     <description>AI Usage Island updates</description>
     <item>
+      <title>AI Usage Island 2.0.0</title>
+      <pubDate>Wed, 28 Oct 2026 10:11:50 +0000</pubDate>
+      <description sparkle:format="markdown">## 首个公开稳定版
+
+- 顶部灵动岛、悬浮状态栏、侧边停靠三种显示形式；侧边停靠跟随账号页的显示选择，可上下自由拖动（允许超出屏幕直到只剩一个图标），支持 5 小时／本周双额度环和可调圆弧。
+- 支持 DeepSeek、智谱 CodingPlan、ChatGPT/Codex；多平台、多账号的额度／余额、重置时间、用量分析与历史记录。
+- 本机提醒、Bark 公开重置动态推送、Sparkle 应用内更新。
+- 源码以 MIT License 公开；使用说明、隐私、安全和第三方声明见源码仓库。
+
+## 安装与更新
+
+支持 Apple Silicon Mac，macOS 14 及以上。已有 1.19.x 用户可在应用“设置 → 通用与支持 → 软件更新”中检查并安装；也可以下载 ZIP，退出旧实例后解压替换应用。已有账号与设置保留。
+
+安装包沿用临时签名，尚未完成 Developer ID 签名和 Apple 公证。
+</description>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.0.0/AIUsageIsland-2.0.0-build79-arm64.zip" length="5785486" type="application/octet-stream" sparkle:version="79" sparkle:shortVersionString="2.0.0" sparkle:edSignature="2ccJ7M0zJJXxHRWbGQmioMqKaXDVpRU8HQBFmyzpW3Xo6OPUqlYQh8ggphEXkFGc8DgHNJQyI06ScM8PnmJXCw==" />
+    </item>
+    <item>
       <title>AI Usage Island 1.19.29</title>
       <pubDate>Wed, 28 Oct 2026 07:32:27 +0000</pubDate>
       <description sparkle:format="markdown">## 本版更新
@@ -41,26 +60,6 @@
 </description>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v1.19.28/AIUsageIsland-1.19.28-build77-arm64.zip" length="5783060" type="application/octet-stream" sparkle:version="77" sparkle:shortVersionString="1.19.28" sparkle:edSignature="zPYAqz4iLiR88raAbZt7uTQsE21JQnJLuUz55PcyQuysf7dFXMEmnXsMzH5/g0opcWY7o/Og2984N5kX2NDNDg==" />
-    </item>
-    <item>
-      <title>AI Usage Island 1.19.27</title>
-      <pubDate>Sun, 25 Oct 2026 11:29:17 +0000</pubDate>
-      <description sparkle:format="markdown">## 本版更新
-
-- 新增“侧边停靠”显示形式：在“设置 → 外观与布局 → 显示形式”选择“侧边停靠”，黑色侧栏会贴住屏幕左／右侧，两端使用连续 S 形过渡。
-- 侧栏支持“移入展开”和“固定贴边”两种方式，可单独切换停靠左侧或右侧。
-- 悬停平台图标会弹出详情卡片；卡片通过引出尖角指向当前图标，左右停靠自动镜像，卡片随图标位置移动。
-- 悬停预览、点击固定、右键菜单和全屏暂停均可继续使用；侧边位置与收起方式独立保存，不影响顶部灵动岛和悬浮状态栏。
-- 侧边停靠选项已纳入配置导出与导入，已有账号、历史和提醒设置保持不变。
-
-## 安装与更新
-
-支持 Apple Silicon Mac，macOS 14 及以上。可在应用“设置 → 通用与支持 → 软件更新”中检查更新；也可以下载 ZIP，退出旧实例后解压并替换应用。已有账号与设置保留。
-
-安装包沿用临时签名，尚未完成 Developer ID 签名和 Apple 公证。
-</description>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v1.19.27/AIUsageIsland-1.19.27-build76-arm64.zip" length="5770427" type="application/octet-stream" sparkle:version="76" sparkle:shortVersionString="1.19.27" sparkle:edSignature="RwqdBZyUoIIlsKMtVP7pqHa9JTlpvJQt81tlCEAKLXgDPPjLHdLjNNj4DqnZJAxrYjn55iYyDvkdmJIuTK67CQ==" />
     </item>
   </channel>
 </rss>
