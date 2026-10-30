@@ -5,6 +5,25 @@
     <link>https://github.com/gReyWangP/AIUsageIsland-releases</link>
     <description>AI Usage Island updates</description>
     <item>
+      <title>AI Usage Island 2.0.3</title>
+      <pubDate>Fri, 30 Oct 2026 01:20:30 +0000</pubDate>
+      <description ns0:format="markdown">## 本版更新
+
+- 修复切换外接显示器后悬浮窗出现在内建屏的问题。
+- 显式选择的屏幕优先于上次拖动保存的位置；显示器 ID 变化时按屏幕名找回；目标暂时不在时优先留在其他外接屏，不再把内建屏写回持久化。
+- 设置页的“显示屏幕”列表会随显示器插拔实时刷新；已选屏幕未连接时会提示，重新接入后自动回到该屏幕。
+- 其余功能、账号与设置不变。
+
+## 安装与更新
+
+支持 Apple Silicon Mac，macOS 14 及以上。已有 2.0.0—2.0.2 或 1.19.x 用户可在应用“设置 → 通用与支持 → 软件更新”中检查并安装；也可以下载 ZIP，退出旧实例后解压替换应用。已有账号与设置保留。
+
+安装包沿用临时签名，尚未完成 Developer ID 签名和 Apple 公证。
+</description>
+      <ns0:minimumSystemVersion>14.0</ns0:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.0.3/AIUsageIsland-2.0.3-build82-arm64.zip" length="5793512" type="application/octet-stream" ns0:version="82" ns0:shortVersionString="2.0.3" ns0:edSignature="Grul/ZtmF3gvNdKLlM9eVb8aXf7YxwF5tJ0mIUIoiHng8q8sGBvkBMz9AUJqHTkpjXTmzMUYJbJ0KFAB7UbCAg==" />
+    </item>
+    <item>
       <title>AI Usage Island 2.0.2</title>
       <pubDate>Thu, 29 Oct 2026 03:30:48 +0000</pubDate>
       <description ns0:format="markdown">## 本版更新
@@ -39,25 +58,6 @@
 </description>
       <ns0:minimumSystemVersion>14.0</ns0:minimumSystemVersion>
       <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.0.1/AIUsageIsland-2.0.1-build80-arm64.zip" length="5785499" type="application/octet-stream" ns0:version="80" ns0:shortVersionString="2.0.1" ns0:edSignature="tJrwKnPoSlHcMHspl4QqJqU+Oui6aBq1mtEZZsFLpL+0GFAwteCGIBGfgb/5x3Uj8QHq4OEEcqR5o8XPcRlmDw==" />
-    </item>
-    <item>
-      <title>AI Usage Island 2.0.0</title>
-      <pubDate>Wed, 28 Oct 2026 10:11:50 +0000</pubDate>
-      <description ns0:format="markdown">## 首个公开稳定版
-
-- 顶部灵动岛、悬浮状态栏、侧边停靠三种显示形式；侧边停靠跟随账号页的显示选择，可上下自由拖动（允许超出屏幕直到只剩一个图标），支持 5 小时／本周双额度环和可调圆弧。
-- 支持 DeepSeek、智谱 CodingPlan、ChatGPT/Codex；多平台、多账号的额度／余额、重置时间、用量分析与历史记录。
-- 本机提醒、Bark 公开重置动态推送、Sparkle 应用内更新。
-- 源码以 MIT License 公开；使用说明、隐私、安全和第三方声明见源码仓库。
-
-## 安装与更新
-
-支持 Apple Silicon Mac，macOS 14 及以上。已有 1.19.x 用户可在应用“设置 → 通用与支持 → 软件更新”中检查并安装；也可以下载 ZIP，退出旧实例后解压替换应用。已有账号与设置保留。
-
-安装包沿用临时签名，尚未完成 Developer ID 签名和 Apple 公证。
-</description>
-      <ns0:minimumSystemVersion>14.0</ns0:minimumSystemVersion>
-      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.0.0/AIUsageIsland-2.0.0-build79-arm64.zip" length="5785486" type="application/octet-stream" ns0:version="79" ns0:shortVersionString="2.0.0" ns0:edSignature="2ccJ7M0zJJXxHRWbGQmioMqKaXDVpRU8HQBFmyzpW3Xo6OPUqlYQh8ggphEXkFGc8DgHNJQyI06ScM8PnmJXCw==" />
     </item>
   </channel>
 </rss>
