@@ -1,47 +1,46 @@
 # AI Usage Island
 
-macOS 顶部浮窗与菜单栏中的 AI 账号用量工具，支持 DeepSeek、智谱 CodingPlan 和 ChatGPT/Codex 额度。
+macOS 14+ 菜单栏／侧边停靠的 AI 用量与额度工具，支持 DeepSeek、智谱 CodingPlan 和 ChatGPT/Codex。
 
-此仓库只用于分发安装包和更新说明。应用源码在公开仓库：[gReyWangP/AIUsageIsland](https://github.com/gReyWangP/AIUsageIsland)。
+[![Latest release](https://img.shields.io/github/v/release/gReyWangP/AIUsageIsland-releases?label=latest&style=flat-square)](https://github.com/gReyWangP/AIUsageIsland-releases/releases/latest)
+[![Platform](https://img.shields.io/badge/platform-macOS%2014%2B%20Apple%20Silicon-lightgrey?style=flat-square)](https://github.com/gReyWangP/AIUsageIsland#系统要求)
+[![Source](https://img.shields.io/badge/source-AIUsageIsland-blue?style=flat-square)](https://github.com/gReyWangP/AIUsageIsland)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/gReyWangP/AIUsageIsland/blob/main/LICENSE)
+
+**[下载最新版](https://github.com/gReyWangP/AIUsageIsland-releases/releases/latest)** · [源码仓库](https://github.com/gReyWangP/AIUsageIsland) · [更新说明](https://github.com/gReyWangP/AIUsageIsland/blob/main/CHANGELOG.md) · [问题反馈](https://github.com/gReyWangP/AIUsageIsland/issues)
+
+此仓库只用于分发安装包、校验和与 Sparkle 更新 feed；应用源码、使用说明、隐私政策和许可证在公开源码仓库。
 
 ![侧边停靠与详情卡片](https://raw.githubusercontent.com/gReyWangP/AIUsageIsland/main/docs/screenshots/side-dock-card.jpg)
 *界面预览 · 侧边停靠、双额度环与引出尖角详情卡片（演示数据）*
 
 ## 下载与安装
 
-在本仓库 Releases 页面下载最新安装 ZIP，解压得到 `AIUsageIsland.app`。先退出旧实例，再将应用放到“应用程序”目录后打开。
+在本仓库 [Releases](https://github.com/gReyWangP/AIUsageIsland-releases/releases/latest) 下载最新 ZIP，解压得到 `AIUsageIsland.app`。先退出旧实例，再将应用放到“应用程序”目录后打开。
 
 当前版本：2.0.3（build 82）。支持 macOS 14 及以上、Apple Silicon。
 
-当前安装包采用临时签名，尚未完成 Developer ID 签名和 Apple 公证。macOS 可能阻止首次打开。首次接入应用内更新的版本需要手动安装一次，之后可在设置 → 通用与支持 → 软件更新中检查、下载并安装。自动检查默认关闭，可自行开启。
+安装包采用临时签名，尚未完成 Developer ID 签名和 Apple 公证，macOS 可能阻止首次打开。首次接入应用内更新的版本需要手动安装一次，之后可在“设置 → 通用与支持 → 软件更新”中检查、下载并安装。自动检查默认关闭，可自行开启。
 
 ## 功能
 
-- 切换外接屏时保持所选屏幕：显式选屏优先于上次放置位置，显示器 ID 变化时按名字找回；设置页的屏幕列表实时刷新。
-- 侧栏 ChatGPT／智谱图标使用同半径双额度弧：上弧显示 5 小时、下弧显示本周，两侧留缺口，余量统一从右往左回收；下方数字保留 5 小时剩余百分比。
-- 侧边停靠可贴住屏幕物理边缘上下拖动，并允许部分超出屏幕直到只剩一个图标；位置自动保存。
-- 侧边停靠跟随账号页的显示选择；“侧栏圆弧”可调，低弧度先圆角、继续增大后过渡为 S 形。
-- 新增“侧边停靠”显示形式：侧栏贴住屏幕左／右侧，支持移入展开或固定贴边；悬停图标会弹出带引出尖角的详情卡片，左右停靠自动镜像。
-- 用量分析按天堆叠展示多个平台与账号，各账号独立色块和明细，同平台以主题色饱和度区分。
-- DeepSeek 悬停详情显示今日金额、Token、缓存命中率与输入／输出；悬浮图标统一圆形并保留原色。
+- 三种显示形式：顶部灵动岛、悬浮状态栏、侧边停靠。
+- 侧边停靠跟随账号页的显示选择，支持上下拖动、双额度弧与可调圆弧；悬停弹出带引出尖角的详情卡片。
+- 支持 DeepSeek、智谱 CodingPlan、ChatGPT/Codex；多平台、多账号的额度／余额、重置时间、用量分析与历史记录。
+- 用量分析按天堆叠展示多个平台与账号，各账号独立色块和明细。
+- 本机提醒、Bark 公开重置动态推送；Sparkle 应用内更新，自动检查默认关闭。
+- 切换外接屏时保持所选屏幕；设置页的屏幕列表随显示器插拔刷新。
+- 账号凭据只保存在本机，没有遥测。
 
-- 新增可拖动的多平台悬浮状态栏，支持顶部及左右吸附、贴边自动隐藏、悬停预览和拖动实时横竖变形。
-- 可开启“状态栏常驻展开”保持当前位置和展开状态；平台详情与右键菜单均提供退出入口。
+## 更新机制
 
-- 可选 Bark 手机推送，仅推公开重置动态；支持多个地址、今日摘要、发送进度与逐个地址结果，默认关闭。
+应用通过 Sparkle 2.9.6 检查更新，feed 固定为 <https://raw.githubusercontent.com/gReyWangP/AIUsageIsland-releases/main/appcast.xml>；更新包使用 Ed25519 签名验证。此仓库的 appcast 保留最近 3 个版本。
 
-- 避免多屏菜单栏图标外观复制造成的持续重绘，未变化的图标复用。
+## 反馈与许可
 
-- DeepSeek 悬浮卡片余额四舍五入保留两位小数，实际数据继续保留完整精度。
-
-- 状态栏卡片与中央悬浮窗共用主题与纯色／毛玻璃背景设置。
-
-- 中央移入、状态栏图标、状态栏移入预览可分别开关；状态栏卡片支持刷新、分析与设置，移入预览默认关闭。
-
-- 应用内下载和安装更新，自动检查默认关闭，更新包采用签名验证。
-
-- 同一平台可添加多个账号，顶部浮窗显示所选账号余额、额度和重置时间。
-- “显示屏幕 → 自动”可在任意屏幕顶部触发；固定浮窗和设置、登录等操作期间保持位置。
-- 独立账号用量分析、额度变化历史、个人提醒与菜单栏速览。
+- 问题与建议：[源码仓库 Issues](https://github.com/gReyWangP/AIUsageIsland/issues)
+- 安全漏洞：请通过 [GitHub Security Advisories](https://github.com/gReyWangP/AIUsageIsland/security/advisories/new) 私下报告，不要在公开 issue 中粘贴 token、Cookie 或账号信息。
+- 代码采用 [MIT License](https://github.com/gReyWangP/AIUsageIsland/blob/main/LICENSE)；平台名称与 Logo 归各自权利人所有，仅用于识别。
+- 第三方组件与许可证见 [THIRD_PARTY_NOTICES.md](https://github.com/gReyWangP/AIUsageIsland/blob/main/THIRD_PARTY_NOTICES.md)。
 
 ChatGPT 账号展示 Codex 额度与官方日统计，不代表 ChatGPT 聊天用量。应用为独立第三方工具，与所列平台无隶属关系。
