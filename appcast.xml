@@ -5,6 +5,27 @@
     <link>https://github.com/gReyWangP/AIUsageIsland-releases</link>
     <description>AI Usage Island updates</description>
     <item>
+      <title>AI Usage Island 2.1.0</title>
+      <pubDate>Sat, 07 Nov 2026 03:15:35 +0000</pubDate>
+      <description ns0:format="markdown">## 本版更新
+
+- 新增 OpenCode Go 订阅额度监控：5 小时、本周、本月三个窗口的剩余百分比、重置时间与额度状态；菜单栏可切换窗口，详情卡片展示三窗口。
+- 添加 OpenCode Go 账号时打开官方 Console 登录，粘贴 Go API Key（不是 Zen 余额 Key）；Key 仅保存在本机，校验通过后才写入。
+- 侧边停靠新增三窗口图标：保留 5 小时／本周双弧，在双弧内侧加入青绿本月环；中心 OpenCode 徽章 19pt，图标下方仍显示 5 小时百分比。
+- 包含 2.0.3 的外接屏修复：切换显示器后保持所选屏幕，设置页屏幕列表实时刷新。
+- OpenCode Go 目前只提供额度接口，暂不显示每日用量统计。
+- 其余功能、账号与设置不变。
+
+## 安装与更新
+
+支持 Apple Silicon Mac，macOS 14 及以上。已有 2.0.x 或 1.19.x 用户可在应用“设置 → 通用与支持 → 软件更新”中检查并安装；也可以下载 ZIP，退出旧实例后解压替换应用。已有账号与设置保留。
+
+安装包沿用临时签名，尚未完成 Developer ID 签名和 Apple 公证。
+</description>
+      <ns0:minimumSystemVersion>14.0</ns0:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.1.0/AIUsageIsland-2.1.0-build83-arm64.zip" length="5853995" type="application/octet-stream" ns0:version="83" ns0:shortVersionString="2.1.0" ns0:edSignature="Z2k71T0OI2DLzX+nnAIMp4093/7nWr+voRnqJvVIvv3WGEQPii5V3rXZiK8L0nMVD5Iau/9IKPxFvRmU6ZAcBw==" />
+    </item>
+    <item>
       <title>AI Usage Island 2.0.3</title>
       <pubDate>Fri, 30 Oct 2026 01:20:30 +0000</pubDate>
       <description ns0:format="markdown">## 本版更新
@@ -40,24 +61,6 @@
 </description>
       <ns0:minimumSystemVersion>14.0</ns0:minimumSystemVersion>
       <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.0.2/AIUsageIsland-2.0.2-build81-arm64.zip" length="5785393" type="application/octet-stream" ns0:version="81" ns0:shortVersionString="2.0.2" ns0:edSignature="x0w6ZCxHg6d2nqBoFmNS8+hiJTKeIvd5/qlTV5wfoCgQXC+S4r2Vmd8ethlrgB1X2JeyP0Se7pPLd94FXUzaAA==" />
-    </item>
-    <item>
-      <title>AI Usage Island 2.0.1</title>
-      <pubDate>Thu, 29 Oct 2026 02:30:10 +0000</pubDate>
-      <description ns0:format="markdown">## 本版更新
-
-- 侧边停靠的 ChatGPT／智谱双额度图标按参考图重做：5 小时与本周改为同半径（17.8pt）的上下两段弧，5 小时上弧 108°、本周下弧 204°，两侧各留 24° 缺口。
-- 5 小时环更短、周额度环更长，视觉上有大小区别，但不再把 5 小时环整圈包住；中心平台徽章调整为 21pt，颜色区分和图标下方的 5 小时百分比保持不变。
-- 其余功能、账号与设置不变。
-
-## 安装与更新
-
-支持 Apple Silicon Mac，macOS 14 及以上。已有 2.0.0 或 1.19.x 用户可在应用“设置 → 通用与支持 → 软件更新”中检查并安装；也可以下载 ZIP，退出旧实例后解压替换应用。已有账号与设置保留。
-
-安装包沿用临时签名，尚未完成 Developer ID 签名和 Apple 公证。
-</description>
-      <ns0:minimumSystemVersion>14.0</ns0:minimumSystemVersion>
-      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.0.1/AIUsageIsland-2.0.1-build80-arm64.zip" length="5785499" type="application/octet-stream" ns0:version="80" ns0:shortVersionString="2.0.1" ns0:edSignature="tJrwKnPoSlHcMHspl4QqJqU+Oui6aBq1mtEZZsFLpL+0GFAwteCGIBGfgb/5x3Uj8QHq4OEEcqR5o8XPcRlmDw==" />
     </item>
   </channel>
 </rss>

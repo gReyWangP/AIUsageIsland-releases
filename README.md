@@ -1,6 +1,6 @@
 # AI Usage Island
 
-macOS 14+ 菜单栏／侧边停靠的 AI 用量与额度工具，支持 DeepSeek、智谱 CodingPlan 和 ChatGPT/Codex。
+macOS 14+ 菜单栏／侧边停靠的 AI 用量与额度工具，支持 DeepSeek、智谱 CodingPlan、ChatGPT/Codex 和 OpenCode Go。
 
 [![Latest release](https://img.shields.io/github/v/release/gReyWangP/AIUsageIsland-releases?label=latest&style=flat-square)](https://github.com/gReyWangP/AIUsageIsland-releases/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-macOS%2014%2B%20Apple%20Silicon-lightgrey?style=flat-square)](https://github.com/gReyWangP/AIUsageIsland#系统要求)
@@ -18,12 +18,13 @@ macOS 14+ 菜单栏／侧边停靠的 AI 用量与额度工具，支持 DeepSeek
 
 在本仓库 [Releases](https://github.com/gReyWangP/AIUsageIsland-releases/releases/latest) 下载最新 ZIP，解压得到 `AIUsageIsland.app`。先退出旧实例，再将应用放到“应用程序”目录后打开。
 
-当前版本：2.0.3（build 82）。支持 macOS 14 及以上、Apple Silicon。
+当前版本：2.1.0（build 83）。支持 macOS 14 及以上、Apple Silicon。
 
 安装包采用临时签名，尚未完成 Developer ID 签名和 Apple 公证，macOS 可能阻止首次打开。首次接入应用内更新的版本需要手动安装一次，之后可在“设置 → 通用与支持 → 软件更新”中检查、下载并安装。自动检查默认关闭，可自行开启。
 
 ## 功能
 
+- 新增 OpenCode Go 订阅额度：5 小时 / 本周 / 本月三窗口，使用官方 Console 的 Go API Key（不是 Zen 余额 Key）。
 - 三种显示形式：顶部灵动岛、悬浮状态栏、侧边停靠。
 - 侧边停靠跟随账号页的显示选择，支持上下拖动、双额度弧与可调圆弧；悬停弹出带引出尖角的详情卡片。
 - 支持 DeepSeek、智谱 CodingPlan、ChatGPT/Codex；多平台、多账号的额度／余额、重置时间、用量分析与历史记录。
