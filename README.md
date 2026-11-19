@@ -18,13 +18,14 @@ macOS 14+ 菜单栏／侧边停靠的 AI 用量与额度工具，支持 DeepSeek
 
 在本仓库 [Releases](https://github.com/gReyWangP/AIUsageIsland-releases/releases/latest) 下载最新 ZIP，解压得到 `AIUsageIsland.app`。先退出旧实例，再将应用放到“应用程序”目录后打开。
 
-当前版本为 2.2.0（build 84）。支持 macOS 14 及以上、Apple Silicon。
+当前版本为 2.2.1（build 85）。支持 macOS 14 及以上、Apple Silicon。
 
 安装包采用临时签名，尚未完成 Developer ID 签名和 Apple 公证，macOS 可能阻止首次打开。首次接入应用内更新的版本需要手动安装一次，之后可在“设置 → 通用与支持 → 软件更新”中检查、下载并安装。自动检查默认关闭，可自行开启。
 
 ## 功能
 
 - Antigravity 5 小时／周额度监控，支持 Google 云端登录和本机读取，分别展示 Gemini 与 Claude/GPT 额度。云端登录需安装 Antigravity，本机读取需保持 Antigravity 运行。
+- 其他应用全屏时自动隐藏顶部悬浮条和侧边停靠，避免遮挡全屏内容。
 - OpenCode Go 订阅额度提供 5 小时／本周／本月三窗口，使用官方 Console 的 Go API Key。
 - 三种显示形式：顶部灵动岛、悬浮状态栏、侧边停靠。
 - 侧边停靠跟随账号页的显示选择，支持上下拖动、双额度弧与可调圆弧；悬停弹出带引出尖角的详情卡片。

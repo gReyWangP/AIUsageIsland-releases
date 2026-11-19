@@ -1,13 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>AI Usage Island</title>
     <link>https://github.com/gReyWangP/AIUsageIsland-releases</link>
     <description>AI Usage Island updates</description>
     <item>
+      <title>AI Usage Island 2.2.1</title>
+      <pubDate>Thu, 19 Nov 2026 05:18:28 +0000</pubDate>
+      <description sparkle:format="markdown">## 本版更新
+
+- 修复其他应用全屏时侧边停靠或悬浮窗仍可能遮挡内容的问题：全屏判定现在会检查当前屏幕所有应用的窗口，不再只检查最前台的窗口。
+- 设置项更名为“其他应用全屏时隐藏悬浮窗”，并说明它同时作用于顶部悬浮条和侧边停靠，菜单栏图标不受影响。
+
+## 安装与更新
+
+支持 Apple Silicon Mac，macOS 14 及以上。下载 ZIP，退出旧实例后解压，将 `AIUsageIsland.app` 放到“应用程序”目录后打开。已安装用户也可在“设置 → 通用与支持 → 软件更新”中检查并安装。
+
+本版为 2.2.1（build 85），使用本机临时签名。首次打开被 macOS 拦截时，可前往“系统设置 → 隐私与安全性”允许打开。</description>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.2.1/AIUsageIsland-2.2.1-build85-arm64.zip" length="6081521" type="application/octet-stream" sparkle:version="85" sparkle:shortVersionString="2.2.1" sparkle:edSignature="4ilbaBJEK8Rx+5dzrHLFt3TVqJ0MYRlJMEN1UgOVfOMavRgNBrCpjFTuvAoy/D6yt25xpfm1e3IlChz1d7L0Bg==" />
+    </item>
+    <item>
       <title>AI Usage Island 2.2.0</title>
       <pubDate>Mon, 16 Nov 2026 14:29:18 +0000</pubDate>
-      <description ns0:format="markdown">## 本版更新
+      <description sparkle:format="markdown">## 本版更新
 
 - 新增 Antigravity 5 小时／周额度监控，分别展示 Gemini 与 Claude/GPT 模型组的剩余额度和重置时间。
 - 在“设置 → 账号 → 添加账号 → Antigravity”中选择“登录 Google 账号”或“从本机读取”。云端登录需安装 Antigravity 以获取登录组件，本机读取需保持 Antigravity 运行。
@@ -21,13 +37,13 @@
 
 本版为 2.2.0（build 84），使用本机临时签名。首次打开被 macOS 拦截时，可前往“系统设置 → 隐私与安全性”允许打开。
 </description>
-      <ns0:minimumSystemVersion>14.0</ns0:minimumSystemVersion>
-      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.2.0/AIUsageIsland-2.2.0-build84-arm64.zip" length="6081138" type="application/octet-stream" ns0:version="84" ns0:shortVersionString="2.2.0" ns0:edSignature="i8F+MfbEoOFMoHP7V2WfQTAmjaY6Rhx7DfJco/lcUwPDyg+t/iwO6ZDaZysmCnG2pRs1yuYUakBcdiuMKaCDCA==" />
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.2.0/AIUsageIsland-2.2.0-build84-arm64.zip" length="6081138" type="application/octet-stream" sparkle:version="84" sparkle:shortVersionString="2.2.0" sparkle:edSignature="i8F+MfbEoOFMoHP7V2WfQTAmjaY6Rhx7DfJco/lcUwPDyg+t/iwO6ZDaZysmCnG2pRs1yuYUakBcdiuMKaCDCA==" />
     </item>
     <item>
       <title>AI Usage Island 2.1.0</title>
       <pubDate>Sat, 07 Nov 2026 03:15:35 +0000</pubDate>
-      <description ns0:format="markdown">## 本版更新
+      <description sparkle:format="markdown">## 本版更新
 
 - 新增 OpenCode Go 订阅额度监控：5 小时、本周、本月三个窗口的剩余百分比、重置时间与额度状态；菜单栏可切换窗口，详情卡片展示三窗口。
 - 添加 OpenCode Go 账号时打开官方 Console 登录，粘贴 Go API Key（不是 Zen 余额 Key）；Key 仅保存在本机，校验通过后才写入。
@@ -42,13 +58,13 @@
 
 安装包沿用临时签名，尚未完成 Developer ID 签名和 Apple 公证。
 </description>
-      <ns0:minimumSystemVersion>14.0</ns0:minimumSystemVersion>
-      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.1.0/AIUsageIsland-2.1.0-build83-arm64.zip" length="5853995" type="application/octet-stream" ns0:version="83" ns0:shortVersionString="2.1.0" ns0:edSignature="Z2k71T0OI2DLzX+nnAIMp4093/7nWr+voRnqJvVIvv3WGEQPii5V3rXZiK8L0nMVD5Iau/9IKPxFvRmU6ZAcBw==" />
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.1.0/AIUsageIsland-2.1.0-build83-arm64.zip" length="5853995" type="application/octet-stream" sparkle:version="83" sparkle:shortVersionString="2.1.0" sparkle:edSignature="Z2k71T0OI2DLzX+nnAIMp4093/7nWr+voRnqJvVIvv3WGEQPii5V3rXZiK8L0nMVD5Iau/9IKPxFvRmU6ZAcBw==" />
     </item>
     <item>
       <title>AI Usage Island 2.0.3</title>
       <pubDate>Fri, 30 Oct 2026 01:20:30 +0000</pubDate>
-      <description ns0:format="markdown">## 本版更新
+      <description sparkle:format="markdown">## 本版更新
 
 - 修复切换外接显示器后悬浮窗出现在内建屏的问题。
 - 显式选择的屏幕优先于上次拖动保存的位置；显示器 ID 变化时按屏幕名找回；目标暂时不在时优先留在其他外接屏，不再把内建屏写回持久化。
@@ -61,8 +77,8 @@
 
 安装包沿用临时签名，尚未完成 Developer ID 签名和 Apple 公证。
 </description>
-      <ns0:minimumSystemVersion>14.0</ns0:minimumSystemVersion>
-      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.0.3/AIUsageIsland-2.0.3-build82-arm64.zip" length="5793512" type="application/octet-stream" ns0:version="82" ns0:shortVersionString="2.0.3" ns0:edSignature="Grul/ZtmF3gvNdKLlM9eVb8aXf7YxwF5tJ0mIUIoiHng8q8sGBvkBMz9AUJqHTkpjXTmzMUYJbJ0KFAB7UbCAg==" />
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gReyWangP/AIUsageIsland-releases/releases/download/v2.0.3/AIUsageIsland-2.0.3-build82-arm64.zip" length="5793512" type="application/octet-stream" sparkle:version="82" sparkle:shortVersionString="2.0.3" sparkle:edSignature="Grul/ZtmF3gvNdKLlM9eVb8aXf7YxwF5tJ0mIUIoiHng8q8sGBvkBMz9AUJqHTkpjXTmzMUYJbJ0KFAB7UbCAg==" />
     </item>
   </channel>
 </rss>
