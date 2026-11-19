@@ -18,12 +18,13 @@ macOS 14+ 菜单栏／侧边停靠的 AI 用量与额度工具，支持 DeepSeek
 
 在本仓库 [Releases](https://github.com/gReyWangP/AIUsageIsland-releases/releases/latest) 下载最新 ZIP，解压得到 `AIUsageIsland.app`。先退出旧实例，再将应用放到“应用程序”目录后打开。
 
-当前版本为 2.2.1（build 85）。支持 macOS 14 及以上、Apple Silicon。
+当前版本为 2.3.0（build 86）。支持 macOS 14 及以上、Apple Silicon。
 
 安装包采用临时签名，尚未完成 Developer ID 签名和 Apple 公证，macOS 可能阻止首次打开。首次接入应用内更新的版本需要手动安装一次，之后可在“设置 → 通用与支持 → 软件更新”中检查、下载并安装。自动检查默认关闭，可自行开启。
 
 ## 功能
 
+- OpenCode Go 本机 Token 消耗统计，提供近 7 天／30 天图表和输入、输出、缓存读写、推理明细，支持离线刷新。多个 OpenCode 账号共用此 Mac 的统计，汇总计入一次。
 - Antigravity 5 小时／周额度监控，支持 Google 云端登录和本机读取，分别展示 Gemini 与 Claude/GPT 额度。云端登录需安装 Antigravity，本机读取需保持 Antigravity 运行。
 - 其他应用全屏时自动隐藏顶部悬浮条和侧边停靠，避免遮挡全屏内容。
 - OpenCode Go 订阅额度提供 5 小时／本周／本月三窗口，使用官方 Console 的 Go API Key。
